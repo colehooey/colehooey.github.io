@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146768211-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-146768211-1');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cole Hooey - Minneapolis Mixing Engineer</title>
+    <meta name="description" content="Cole Hooey is a mixing engineer (and occasional producer) based out of Minneapolis, MN working in a variety of genres including rock, indie, and country."/>
+
+    <!-- Hotjar Tracking Code for www.colehooey.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1485991,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+</head>
+
+<body>
+
+    <div class="content-wrapper">
+        <h1><span class="name">Cole Hooey</span> is a Minneapolis based mixing engineer <span class="producer">(and occasional producer)</span></h1>
+        <div class="contact">
+                To inquire: &nbsp; <a href="mailto:colehooey@gmail.com">colehooey@gmail.com</a> &nbsp; or &nbsp; <a href="tel:701-893-6512">701-893-6512</a>
+        </div>
+        <div class="player-and-photo">
+            <div class="player">
+                <h2>Listen</h2>
+
+                <div class="song">
+                    <div class="song-info">
+                        <h3>Over and Over (Paul Michell)</h3>
+                        <h4>Pop Rock&nbsp; <span class="separator">/</span> &nbsp;Produced, Engineered, Mixed</h4>
+                    </div>
+                    <div class="play-button" data-song="over-and-over.mp3?v2">
+                    </div>
+                </div>
+
+                <div class="song">
+                    <div class="song-info">
+                        <h3>Clarity (Black Tiger Bay)</h3>
+                        <h4>Alternative Rock&nbsp; <span class="separator">/</span> &nbsp;Produced, Engineered, Mixed</h4>
+                    </div>
+                    <div class="play-button" data-song="clarity.mp3?v1">
+                    </div>
+                </div>
+
+                <div class="song">
+                    <div class="song-info">
+                        <h3>John Wayne (Kenton Bryant)</h3>
+                        <h4>Country&nbsp; <span class="separator">/</span> &nbsp;Mixed</h4>
+                    </div>
+                    <div class="play-button" data-song="john-wayne.mp3?v3">
+                    </div>
+                </div>
+
+                <div class="song">
+                    <div class="song-info">
+                        <h3>On My Own (The Powers)</h3>
+                        <h4>Pop Punk&nbsp; <span class="separator">/</span> &nbsp;Produced, Engineered, Mixed</h4>
+                    </div>
+                    <div class="play-button" data-song="on-my-own.mp3?v1">
+                    </div>
+                </div>
+
+                <div class="song">
+                    <div class="song-info">
+                        <h3>Shipwreck (Kelsey Sargent)</h3>
+                        <h4>Indie&nbsp; <span class="separator">/</span> &nbsp;Produced, Engineered, Mixed</h4>
+                    </div>
+                    <div class="play-button" data-song="shipwreck.mp3?v1">
+                    </div>
+                </div>
+
+            </div>
+            <div class="photo">
+                <img src="img/cole-hooey.jpg" alt="Cole Hooey Mixing Engineer">
+            </div>
+        </div>
+    </div>
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type='text/javascript'>
+    $(window).load(function(){
+
+        $( '.play-button' ).click(function(){
+            var songurl = $(this).data('song');
+            $('.song audio').remove();
+            $('.play-button').show();
+            $(this).hide();
+    		$(this).parent('.song').append("<audio autoplay controls><source src='media/" + songurl + "' type='audio/mpeg'></audio>");
+    	});
+
+    });
+</script>
+</body>
+</html>
