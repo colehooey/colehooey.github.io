@@ -48,16 +48,22 @@ img {
 
 
 
-/* Typgoraphy */
+/* General */
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #eff3f5;
 	color: #222;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 	line-height: 24px;
     font-size: 16px;
 	text-rendering: optimizeLegibility;
+}
+.page-wrapper {
+	background-color: #FFF;
+	margin: auto;
+	max-width: 1200px;
 }
 a {
 	color: inherit;
@@ -148,6 +154,11 @@ header .logo span {
 		line-height: 20px;
 	}
 }
+@media only screen and (min-width: 1000px) {
+	header {
+		padding: 40px 40px;
+	}
+}
 
 
 
@@ -201,6 +212,9 @@ header .logo span {
 	.text {
 		padding-top: 40px;
 	}
+	.contact {
+		padding: 0 20px;
+	}
 	.contact-inside {
 		padding: 40px;
 		top: -20px;
@@ -232,6 +246,9 @@ header .logo span {
 	}
 }
 @media only screen and (min-width: 1000px) {
+	.content-wrapper {
+		padding: 0 40px;
+	}
 	.contact-inside { 
 		top: -50px;
 	}
@@ -307,5 +324,5 @@ header .logo span {
 footer {
 	font-size: 16px;
 	text-align: center;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
