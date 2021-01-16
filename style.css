@@ -97,6 +97,7 @@ h3 {
 	h2 {
 		font-size: 34px;
 		line-height: 40px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -203,6 +204,20 @@ header .logo span {
 	.contact-inside {
 		padding: 40px;
 		top: -20px;
+	}
+	.contact-methods {
+		margin: auto;
+		max-width: 280px;
+	}
+	.contact-method {
+		display: flex;
+		
+	}
+	.contact-type {
+		margin-right: 20px;
+	}
+	.contact-detail {
+
 	}
 }
 @media only screen and (min-width: 750px) {
