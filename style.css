@@ -221,11 +221,11 @@ header .logo span {
 	}
 	.contact-methods {
 		margin: auto;
-		max-width: 280px;
+		max-width: 260px;
 	}
 	.contact-method {
 		display: flex;
-		
+		justify-content: space-between;
 	}
 	.contact-type {
 		margin-right: 20px;
