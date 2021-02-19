@@ -90,7 +90,22 @@ h2 {
 	margin-bottom: 10px;
 }
 h3 {
-	
+	margin-bottom: 20px;
+}
+.button {
+    background: #2f557f;
+    border-radius: 4px;
+    color: #FFF;
+	display: inline-block;
+	font-family: 'Fraunces', serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    padding: 12px 24px;
+}
+.button:hover {
+	background: #294a6d;
+	text-decoration: none;
 }
 @media only screen and (min-width: 750px) {
 	body {
