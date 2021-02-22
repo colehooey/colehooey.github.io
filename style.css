@@ -99,15 +99,30 @@ h3 {
 	display: inline-block;
 	font-family: 'Fraunces', serif;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 20px;
     font-weight: 700;
-    padding: 12px 24px;
+    padding: 12px 18px;
+	margin: 0 8px 8px 8px;
 }
 .button:hover {
 	background: #294a6d;
 	text-decoration: none;
 }
+.button.button-lite {
+    background: #FFF;
+    color: #2f557f;
+}
+.button.button-lite:hover {
+	background: #eef1f3;
+}
+
 @media only screen and (min-width: 750px) {
+	.button {
+		font-size: 20px;
+		line-height: 28px;
+		padding: 12px 24px;
+		margin: 0 8px 0 8px;
+	}
 	body {
 		font-size: 18px;
 	}

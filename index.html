@@ -18,7 +18,25 @@
     <link rel="shortcut icon" href="img/favicon.png?v1" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v1-1">
+    <link rel="stylesheet" href="style.css?v1-2">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1075445476263324');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1075445476263324&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -43,7 +61,11 @@
                 <h3>
                     Serving buyers & sellers in the Twin Cities with their next move.
                 </h3>
-                <a href="https://www.homesnap.com/Cole-Hooey" target="_blank" class="button">Search homes</a>
+                <div class="button-group">
+                    <a href="https://www.homesnap.com/Cole-Hooey" target="_blank" class="button">Search homes</a>
+                    <a href="mailto:colehooey@gmail.com?subject=How%20much%20is%20my%20home%20worth%3F&body=Cole%2C%20can%20you%20tell%20me%20how%20much%20my%20home%20is%20worth%3F%0D%0A%0D%0AMy%20address%3A%0D%0A%0D%0AMy%20phone%20number%3A" target="_blank" class="button button-lite">What's my home worth?</a>
+                </div>
+                
             </div>
             <img class="image" src="img/cole-hooey-realtor.jpg">
             <div class="contact">
