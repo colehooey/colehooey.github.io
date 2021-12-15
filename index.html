@@ -14,13 +14,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cole Hooey - Twin Cities Realtor</title>
-    <meta name="description" content="Cole Hooey is a Realtor serving the Twin Cities of Minneapolis & St. Paul as well as the surround suburbs of Richfield, Edina, Bloomington, and the entire metro."/>
+    <meta name="description" content="Cole Hooey is a Realtor serving the Twin Cities of Minneapolis & St. Paul as well as the surrounding suburbs including Richfield, Edina, Bloomington."/>
     <meta name="facebook-domain-verification" content="p282ta3ym0n0s7a5ik2ptq1d98sl8r" />
+
+    <meta property="og:title" content="Cole Hooey - Twin Cities Realtor" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://colehooey.com/" />
+    <meta property="og:image" content="https://colehooey.com/img/cole-hooey-realtor.jpg" />
+
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="shortcut icon" href="img/favicon.png?v1" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v1-3">
+    <link rel="stylesheet" href="style.css?v2-0">
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -44,108 +50,224 @@
 <body>
     <div class="page-wrapper">
         <header>
-            <h1 class="logo">
+            <div class="wrapper">
+                <div class="logo-wrapper">
+                    <h1 class="logo text-center">
+                        Cole Hooey
+                        <span>Twin Cities Realtor</span>
+                    </h1>
+                    <a  href="#" id="menu-button">Menu</a>
+                </div>
+                <nav class="main-nav">
+                    <a href="#buy">Buy</a>
+                    <a href="#sell">Sell</a>
+                    <a href="#invest">Invest</a>
+                    <a href="#testimonials">Testimonials</a>
+                </nav>
+                <nav class="contact-nav">
+                    <a href="tel:952-999-3519" class="phone">952-999-3519</a>
+                    <a href="mailto:colehooey@gmail.com" class="email">colehooey@gmail.com</a>
+                </nav>
+            </div>
+        </header>
+
+
+
+        <div class="content-wrapper"> 
+
+            <div class="intro">
+                <div class="wrapper wrapper-medium">
+                    <div class="headline">
+                        <h1>
+                            Work hard.<br>
+                            Put people first.
+                        </h1>
+                    </div>
+                    <div class="text">
+                        <p>Buying or selling a home is a big deal. Finding the right person to help you is key. It’s my job to be a trusted advisor, educator, and guide through every step.</p>
+                        <div class="button-group">
+                            <a onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'Search homes'});" href="https://www.homesnap.com/Cole-Hooey" target="_blank" class="button">Search homes</a> 
+                            <a onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'What is my home worth?'});;" href="https://form.typeform.com/to/wPj4ncl5?typeform-medium=embed-snippet" class="button button-lite typeform-share" data-size="70" data-mode="popup"  target="_blank">What's my home worth?</a><script>(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="hero">
+                <div class="wrapper wrapper-large">
+                    <div class="hero-image">
+                        <div class="hero-image-inside">
+                            <img src="img/anderson-logo.png" alt="Anderson Realty" class="anderson-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="about">
+                <div class="wrapper wrapper-medium">
+                    <div class="about-inside">
+                        <div class="text">
+                            <h2>A bit about me</h2>
+                            <p>We all have so many aspects of ourselves across a wide array of passions and interests. Real estate surprises me every day with how much of myself I get to pour into it. On any given day I get to be an advisor, an ear to listen, a data analyst, a marketer, a DIYer, a negotiator, and a friend.</p>
+                            <p>I’m fortunate to be able to draw from a diverse background of experiences to serve my clients. It would be a privilege to walk through this journey with you!</p>
+                        </div>
+                        <div class="image">
+                            <div class="image-inside">
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="services">
+                <div class="wrapper wrapper-small">
+                    <div class="image">
+                        <img src="img/home-illustration.png" alt="Home Illustration">
+                    </div>
+                    <div class="services-list">
+                        <div class="service" id="buy">
+                            <h2>Buying</h2>
+                            <p>Buying a home can feel daunting, especially in times when buyers are faced with a strong seller’s market – but that’s why I’m here. I thrive in highly competitive situations and I fight to get the home that is right for my clients. I’ll help you make decisions that you are confident in and that are right for you.</p>
+                        </div> 
+                        <div class="service" id="sell">
+                            <h2>Selling</h2>
+                            <p>It’s easy when we’re in a seller’s market to cut corners, put a sign in your yard, and hope your home will sell – but I believe anything worth doing is worth doing right. I know what it takes to meticulously prepare your home for the market and put you in a position to maximize your investment. It’s not just about selling, but selling right.</p>
+                        </div> 
+                        <div class="service" id="buy-sell">
+                            <h2>Buying + Selling</h2>
+                            <p>If you need to sell your home while also buying your next home I am here to help. These scenarios can be complex but it doesn’t have to be stressful. It just takes careful preparation and planning. Everyone’s situations are a little bit different and they each take their own unique plan to figure out the right tactic for you.</p>
+                        </div> 
+                        <div class="service" id="invest">
+                            <h2>Investing</h2>
+                            <p>Buying real estate as an investment is a different ballgame than buying a home for yourself. I’ll strategize with you and work to determine the viability of properties to see what works for your specific needs and goals.</p>
+                        </div> 
+                    </div>
+                    <div class="contact">
+                        <h2>I'd love to help</h2>
+                        <p>No matter where you are in the journey, I want to talk to you and figure out a plan fitted to your needs. Let’s talk!</p>
+                        <div class="button-group">
+                            <a href="tel:952-999-3519" class="button button-lite button-small">952-999-3519</a> 
+                            <a href="mailto:colehooey@gmail.com" class="button button-lite button-small" target="_blank">colehooey@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="testimonials" id="testimonials">
+                <div class="wrapper wrapper-medium">
+
+                    
+                    <h2 class="text-center">What my clients say</h2>
+
+
+                    <div class="testimonial">
+                        <h3 class="name">KJ + Max</h3>
+                        <div class="text">
+                            <div class="preview-text">
+                                <p>Cole should be everybody’s go-to guy.  All throughout the stressful process of finding our first home, Cole was there to guide us. Whether it was getting us set up with our mortgage broker, scheduling inspections or giving personal insight; Cole handled all our requests quickly and professionally<span class="dots">...</span></p>
+                            </div>
+                            <div class="full-text">
+                                <p>Cole should be everybody’s go-to guy. All throughout the stressful process of finding our first home, Cole was there to guide us. Whether it was getting us set up with our mortgage broker, scheduling inspections or giving personal insight; Cole handled all our requests quickly and professionally.</p>
+                                <p>As a young couple we were glad to have an agent who possessed excellent communication skills. Cole’s use of technology made our experience effortless as he set up appointments, e-documents, and Zoom calls.</p>
+                                <p>When we made the decision to connect with Cole, everything fell into place. Cole is knowledgeable, hard working, and a joy to be around. We are extremely lucky to have found him, and are blessed to be in a home that we love! If you end up with Cole in your stocking this holiday season… consider yourself lucky!</p>
+                            </div>
+                            <p>
+                                <a href="#" class="keep-reading">Keep reading +</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    
+                    <div class="testimonial">
+                        <h3 class="name">Brian + Kelsey</h3>
+                        <div class="text">
+                            <p>We came to Cole with a lot of questions about how to start the home-buying process in such a hot market. He was more than ready with answers to everything, essential local insights, and a method that worked so well that we closed on a home in just a few weeks. He's professional, proactive, and proof that a great realtor makes all the difference. Thanks, Cole!</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="testimonial">
+                        <h3 class="name">Derek + Teresa</h3>
+                        <div class="text">
+                            <div class="preview-text">
+                                <p>Cole is the full package when it comes to realtors. He was attentive, informative, calm and collected while helping us navigate the overwhelming real estate climate. Cole truly advocated for our needs in both the buying and selling processes<span class="dots">...</span></p>
+                            </div>
+                            <div class="full-text">
+                                <p>Cole is the full package when it comes to realtors. He was attentive, informative, calm and collected while helping us navigate the overwhelming real estate climate. Cole truly advocated for our needs in both the buying and selling processes.</p>
+                                <p>When we had big picture concerns during our home search, he helped us find answers and gave us clarity. When it came time to sell our home, we felt so taken care of by Cole and his process. He built a very impressive strategy to get our house on the market and find the right future owners.</p>
+                                <p>Cole is everything you could ask for in a realtor. Not only did he help us find the perfect home for us and sell our previous home, he helped us feel confident throughout the process.</p>
+                            </div>
+                            <p>
+                                <a href="#" class="keep-reading">Keep reading +</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="testimonial">
+                        <h3 class="name">Mike</h3>
+                        <div class="text">
+                            <p>We came to Cole with a lot of questions about how to start the home-buying process in such a hot market. He was more than ready with answers to everything, essential local insights, and a method that worked so well that we closed on a home in just a few weeks. He's professional, proactive, and proof that a great realtor makes all the difference. Thanks, Cole!</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="testimonial">
+                        <h3 class="name">Matt</h3>
+                        <div class="text">
+                            <p>Cole was amazing to work with! He was available for any and all of my first-time home-buyer questions even there to answer questions that I had about the financing of my house loan for a second opinion. I would recommend Cole to anyone looking to buy a house. He did all of the planning and made the whole process easy for me and also super enjoyable.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <h1 class="logo text-center">
                 Cole Hooey
                 <span>Twin Cities Realtor</span>
             </h1>
-            <div class="phone">
-                <a href="tel:952-999-3519">952-999-3519</a>
-            </div>
-            <div class="email">
-                <a href="mailto:colehooey@gmail.com">colehooey@gmail.com</a>
-            </div>
-        </header>
-        <div class="content-wrapper"> 
-            <div class="text">
-                <h1>
-                    Work hard. Put people first.
-                </h1>
-                <h3>
-                    Here to give the guidance right for you.
-                </h3>
-                <div class="button-group">
-                    <a onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'Search homes'});" href="https://www.homesnap.com/Cole-Hooey" target="_blank" class="button">Search homes</a> 
-                    <a onclick="gtag('event', 'click', {'event_category' : 'button','event_label' : 'What is my home worth?'});;" href="https://form.typeform.com/to/wPj4ncl5?typeform-medium=embed-snippet" class="button button-lite typeform-share" data-size="70" data-mode="popup"  target="_blank">What's my home worth?</a><script>(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-                </div>
 
+            <nav class="contact-nav">
+                <a href="tel:952-999-3519" class="phone">952-999-3519</a>
+                <br>
+                <a href="mailto:colehooey@gmail.com" class="email">colehooey@gmail.com</a>
+            </nav>
 
-            </div>
-            <img class="image" src="img/cole-hooey-realtor.jpg">
-            <div class="contact">
-                <div class="contact-inside">
-                    <h2>Ready to get going?<br>Don't know where to start?</h2>
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="contact-type">
-                                <strong>Call or text</strong>
-                            </div>
-                            <div class="contact-detail">
-                                <a href="tel:952-999-3519">952-999-3519</a>
-                            </div>     
-                        </div>
-                        <div class="contact-method">
-                            <div class="contact-type">
-                                <strong>Email</strong>
-                            </div>
-                            <div class="contact-detail">
-                                <a href="mailto:colehooey@gmail.com">colehooey@gmail.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_wrapper">
-                <div id="mc_embed_signup">
-                    <form action="https://colehooey.us6.list-manage.com/subscribe/post?u=ba1d3521776129c315ca15b84&amp;id=d0e8939262" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <h4>Get my newsletter</h4>
-                            <div class="mc-field-group">
-                                <label for="mce-EMAIL" style="display:none">Email Address </label>
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
-                            </div>
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba1d3521776129c315ca15b84_d0e8939262" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    
-                        </div>
-                    </form>
-            </div>
-            </div>
-            <!--End mc_embed_signup-->
-            <div class="logos">
-                <div class="anderson-realty">
-                    <a href="https://andersonrealtymn.com/" target="_blank">
-                        <img src="img/anderson-realty.png" alt="Anderson Realty">
+            <div class="associated-logos">
+                <div class="nar">
+                    <a href="https://www.nar.realtor/" target="_blank">
+                        <img src="img/nar.png" alt="NAR">
                     </a>
                 </div>
-                <div class="associated-logos">
-                    <div class="nar">
-                        <a href="https://www.nar.realtor/" target="_blank">
-                            <img src="img/nar.png" alt="NAR">
-                        </a>
-                    </div>
-                    <!--
-                    <div class="spaar">
-                        <a href="https://spaar.com/" target="_blank">
-                            <img src="img/spaar.png" alt="Spaar">
-                        </a>
-                    </div>
-                    -->
-                    <div class="equal-housing">
-                        <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank">
-                            <img src="img/equal-housing.png" alt="Equal Housing">
-                        </a>
-                    </div>
+                <div class="equal-housing">
+                    <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp" target="_blank">
+                        <img src="img/equal-housing.png" alt="Equal Housing">
+                    </a>
                 </div>
             </div>
-        </div>
-        <footer>
-            &copy;2021 Cole Hooey - Licensed in Minnesota
+            <div class="copyright">
+                &copy;2021 Cole Hooey - Licensed in Minnesota
+            </div>
+            
         </footer>
+
     </div>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type='text/javascript' src='main.js?v=1'></script>
 </body>
 </html>
