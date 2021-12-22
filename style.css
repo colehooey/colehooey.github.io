@@ -242,7 +242,7 @@ header .contact-nav a {
 		padding: 0 28px;
 	}
 }
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1024px) {
 	header .wrapper {
 		display: flex;
 		align-items: center;
@@ -286,7 +286,15 @@ header .contact-nav a {
 		text-align: center;
 	}
 }
-
+@media only screen and (min-width: 1200px) {
+	header .main-nav a {
+		padding: 8px 16px;
+	}
+	
+	header .contact-nav a {
+		padding: 8px 16px;
+	}
+}
 
 
 /* Intro */
