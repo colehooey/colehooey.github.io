@@ -134,7 +134,7 @@ h3 {
 	padding-right: 20px;
 }
 .wrapper-small {
-	max-width: 1024px;
+	max-width: 1104px;
 }
 .wrapper-medium {
 	max-width: 1200px;
@@ -358,6 +358,9 @@ header .contact-nav a {
 	.intro .text {
 		max-width: 540px;
 	}
+	.hero-image {
+		margin-bottom: 198px;
+	}
 }
 
 
@@ -380,7 +383,7 @@ header .contact-nav a {
 	bottom: -20px;
 	margin: auto;
 	position: relative;
-	padding-bottom: 60%;
+	padding-bottom: 80%;
 }
 .about-inside .image-inside {
 	position: absolute;
@@ -389,10 +392,6 @@ header .contact-nav a {
 	height: 100%;
 	width: 100%;
 	background-image: url(img/cole-hooey-realtor.jpg);
-	background-image: url(img/white.jpeg);
-	background-image: url(img/seated.jpeg);
-	background-image: url(img/tan.jpeg);
-	background-image: url(img/tan2.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-position: top center;
@@ -412,7 +411,7 @@ header .contact-nav a {
 		
 	}
 }
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 860px) {
 	.about-inside {
 		display: flex;
 		justify-content: space-between;
@@ -433,19 +432,36 @@ header .contact-nav a {
 	.about-inside .text {
 		padding: 48px;
 		margin: 0;
-		width: 60%;
+		width: 50%;
 	}
 	.about-inside .image {
-		width: 40%;
+		width: 50%;
 		bottom: inherit;
 		margin: 0;
 		padding: 0;
 	}
 	.about-inside .image-inside {
-		top: -48px;
+		top: -38px;
 		height: calc(100% + 96px);
+	}	
+}
+@media only screen and (min-width: 1100px) {
+	.about-inside {
+
 	}
-	
+	.about-inside:before {
+
+	}
+	.about-inside .text {
+		width: 60%;
+	}
+	.about-inside .image {
+		width: 40%;
+	}
+	.about-inside .image-inside {
+		top: -98px;
+		height: calc(100% + 196px);
+	}	
 }
 
 
@@ -488,6 +504,7 @@ header .contact-nav a {
 @media only screen and (min-width: 1100px) {
 	.services {
 		padding-bottom: 108px;
+		padding-top: 198px;
 	}
 	.services .image {
 		max-width: 540px;
