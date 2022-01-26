@@ -376,7 +376,6 @@ header .contact-nav a {
 /* About */
 .about-inside {
 	background: #505C6A;
-	background: #28384a;
 	color: #FFF;
 	margin-left: -20px;
     margin-right: -20px;
@@ -454,12 +453,6 @@ header .contact-nav a {
 	}	
 }
 @media only screen and (min-width: 1100px) {
-	.about-inside {
-
-	}
-	.about-inside:before {
-
-	}
 	.about-inside .text {
 		width: 60%;
 	}
