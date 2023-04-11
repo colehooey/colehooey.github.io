@@ -391,7 +391,7 @@ header .contact-nav a {
 
 /* About */
 .about-inside {
-	background: #505C6A;
+	background: #25384D;
 	color: #FFF;
 	margin-left: -20px;
     margin-right: -20px;
@@ -406,7 +406,7 @@ header .contact-nav a {
 	bottom: -20px;
 	margin: auto;
 	position: relative;
-	padding-bottom: 80%;
+	padding-bottom: 100%;
 }
 .about-inside .image-inside {
 	position: absolute;
@@ -414,7 +414,7 @@ header .contact-nav a {
 	right: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(img/cole-hooey-realtor.jpg);
+	background-image: url(img/cole-hooey-realtor-2023.jpg);
 	background-size: cover;
 	background-position: center;
 	background-position: top center;
